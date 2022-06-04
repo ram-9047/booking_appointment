@@ -75,3 +75,40 @@
     padding: 5px;
     margin: 5px;
   }
+  .update-btn{
+    display: none;
+  }
+  .list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.2rem;
+  }
+  .list:hover{
+    background-color: #D2B48C;
+  }
+  .del-btn {
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 1.2rem;
+    padding: 0.2rem 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  .del-btn:hover{
+    background-color:white;
+    color: red;
+  }
+  .edit-btn {
+    color: white;
+    background-color: #A237CE;
+    border: 1px solid #A237CE;
+    border-radius: 1.2rem;
+    padding: 0.2rem 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  .edit-btn:hover{
+    background-color:white;
+    color: #A237CE;
+  }
